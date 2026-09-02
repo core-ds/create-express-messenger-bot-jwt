@@ -1,0 +1,21 @@
+name: "Create Express messenger bot JWT"
+description: GitHub action to create Express messenger bot JSON Web Token (JWT)
+runs:
+  using: "node24"
+  main: "dist/main.cjs"
+inputs:
+  express-server-url:
+    description: "Server URL"
+    required: true
+  bot-id:
+    description: "Bot ID"
+    required: true
+  secret-key:
+    description: "Bot secret key"
+    required: true
+  expires-in:
+    description: "Token expire time in minutes"
+    default: "10"
+outputs:
+  token:
+    description: "The JSON Web Token string"
