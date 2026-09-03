@@ -1,5 +1,11 @@
 # create-express-messenger-bot-jwt
 
+## 1.0.1
+
+### Patch Changes
+
+- [#5](https://github.com/core-ds/create-express-messenger-bot-jwt/pull/5) [`d91351a`](https://github.com/core-ds/create-express-messenger-bot-jwt/commit/d91351a078a813ff5810a69bdda2d4ee177acebd) Thanks [@hextion](https://github.com/hextion)! - Refactor
+
 ## 1.0.0
 
 ### Major Changes
